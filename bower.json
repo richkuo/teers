@@ -1,0 +1,17 @@
+{
+	"name": "angularJS-IL",
+	"version": "1.0.0",
+	"dependencies": {
+		"bootstrap": "latest",
+		"angular": "latest",
+		"angular-resource": "latest",
+		"angular-cookies": "latest",
+		"angular-bootstrap": "latest",
+		"json3": "latest",
+		"jquery": "latest"
+	},
+	"devDependencies": {
+		"angular-mocks": "latest",
+		"angular-scenario": "latest"
+	}
+}

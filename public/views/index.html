@@ -1,3 +1,13 @@
-<section data-ng-controller="IndexController">
-	<h1>This is the home view</h1>
-</section>
+<div class="jumbotron">
+  <section data-ng-controller="IndexController">
+    <p>if you deny yourself the teers, you deny the world it's teers.</p>
+    <p>and we will not be denied.</p>
+    <p>welcome to the world's only website fully dedicated to the teers of life. here, we don't simply want you to accept your sorrows, but to <strong>embrace</strong> them.</p>
+  </section>
+</div>
+
+<div data-ng-controller="HeaderController" data-ng-init="init()">
+  <ul data-ng-repeat="item in menu" data-ng-show="global.user" data-ng-class="{active: isSelected(item)}">
+    <li><a href="#!/{{item.link}}">{{item.title}}</a></li>
+  </ul>
+</div>

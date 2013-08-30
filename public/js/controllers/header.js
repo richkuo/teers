@@ -1,7 +1,7 @@
 function HeaderController($scope, $location, Global) {
     $scope.global = Global;
     $scope.menu = [{
-        "title": "Articles",
+        "title": "View All Articles",
         "link": "articles"
     }, {
         "title": "Create New Article",

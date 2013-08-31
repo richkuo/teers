@@ -60,7 +60,7 @@ module.exports = {
         db: 'mongodb://localhost/teer-prod',
         root: rootPath,
         app: {
-            name: 'Teers - Production'
+            name: 'Teers'
         },
         facebook: {
             clientID: "APP_ID",

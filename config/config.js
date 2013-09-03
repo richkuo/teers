@@ -57,6 +57,7 @@ module.exports = {
         }
     },
     production: {
+        db: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost/teer-prod',
         root: rootPath,
         app: {
             name: 'Teers'

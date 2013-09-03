@@ -3,7 +3,7 @@ var path = require('path'),
 
 module.exports = {
     development: {
-        db: 'mongodb://localhost/teer-dev',
+        db: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost/teer-dev',
         root: rootPath,
         app: {
             name: 'Teers - Development'

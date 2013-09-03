@@ -29,13 +29,13 @@
         "async": "latest",
         "view-helpers": "latest",
         "mean-logger": "latest",
+        "bower": "latest",
         "forever": "latest"
     },
     "devDependencies": {
         "supertest": "latest",
         "should": "latest",
         "mocha": "latest",
-        "bower": "latest",
         "grunt": "latest",
         "grunt-contrib-compass": "latest",
         "grunt-contrib-watch": "latest",

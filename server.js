@@ -22,8 +22,8 @@ var env = process.env.NODE_ENV || 'development',
 var db = mongoose.connect(config.db);
 var mongo = require('mongodb');
 
-var mongoUri = process.env.MONGOHQ_URL ||
-  process.env.MONGOLAB_URI ||
+var mongoUri = process.env.MONGOLAB_URI ||
+  process.env.MONGOHQ_URL ||
   'mongodb://localhost/teer-prod';
 
 mongo.Db.connect(mongoUri, function (err, db) {

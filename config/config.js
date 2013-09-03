@@ -57,7 +57,6 @@ module.exports = {
         }
     },
     production: {
-        db: 'mongodb://localhost/teer-prod',
         root: rootPath,
         app: {
             name: 'Teers'
